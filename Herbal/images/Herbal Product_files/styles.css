@@ -1,0 +1,941 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: #037A44;
+    color: white;
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+}
+
+nav > ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav > ul > li {
+    list-style: none;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav > ul > li > a:hover{
+    border-bottom: 2px white solid;
+}
+
+nav > div {
+    font-size: 25px;
+}
+
+.search-box {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.logo {
+    width: 10%;
+}
+.logo > img {
+    width: 60%;
+}
+
+.search-box > ul {
+    display: flex;
+}
+
+.search-box > i {
+    font-size: 30px;
+    color: #037A44;
+}
+
+.search-box > ul > li {
+    list-style: none;
+}
+.search-box > ul > li > a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 30px;
+    color: black;
+}
+
+.search-box > ul > li > a:hover{
+    border-bottom: 3px #037A44 solid;
+    color: #037A44;
+}
+
+.search {
+    border: 1px black solid;
+    height: 40px;
+}
+
+.search > i {
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+.search > input {
+    height: 30px;
+    width: 300px;
+    border: 0px;
+}
+
+.hero-section {
+    display: flex;
+    margin-top: 40px;
+}
+
+.hero-img {
+    width: 50%;
+}
+.hero-img > img {
+    width: 100%;
+}
+
+.hero-text {
+    background-color: #037A44;
+    width: 50%;
+    padding: 70px 50px 50px 50px;
+}
+
+.hero-text > h1 {
+    color: white;
+    font-size: 70px;
+}
+
+.hero-text > p {
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.hero-text > button {
+    background-color: white;
+    border: 0px;
+    width: 40%;
+    height: 50px;
+    margin-top: 30px; 
+}
+
+.hero-text > button > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+main {
+    background-color: #E6E6E6;
+    padding-top: 90px;
+}
+
+
+.new {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.new > h2 {
+    color: #037A44;
+    font-size: 50px;
+    margin-left: 100px;
+}
+.new > button {
+    background-color: #037A44;
+    border: 0px;
+    width: 9%;
+    height: 60px;
+    border-radius: 5px;
+    margin-top: 30px; 
+    margin-right: 100px;
+}
+.new > button > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.new-arrival-imgs {
+    display: flex;
+    gap: 20px;
+    justify-content: center; 
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.img {
+    width: 100%;
+    background-color: white;
+    height: 300px;
+}
+.img > img {
+    width: 100%;
+    padding: 20px;
+    position: relative;
+}
+
+.img > img:hover {
+    padding: 0px;
+    top: 6px;
+    transition: 0.3s ease-in-out;
+}
+
+.text {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.img-text {
+    background-color: #F6F6F6;
+    padding: 20px;
+    width: 100%;
+}
+
+.img-text > h2 {
+    font-size: 20px;
+}
+
+.img-text > p {
+    color: #037A44;
+    font-size: 30px;
+}
+
+.facial {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.face {
+    width: 40%;
+}
+
+.face > img {
+    width: 100%;
+}
+
+.facial-text {
+    width: 44%;
+    padding: 70px 50px 0px 50px;
+    background-color: #8A8A8A;
+}
+
+.facial-text > p {
+    font-size: 5em;
+    color: white;
+    width: 90%;
+}
+.facial-text > button {
+    width: 30%;
+    height: 50px;
+}
+.facial-text > button > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.trending {
+    color: #037A44;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.diabetic{
+    display: flex;
+    justify-content: center;
+    margin: 90px;
+}
+
+.diabetic-img {
+    width: 40%;
+}
+
+.diabetic-img > img {
+    width: 100%;
+}
+
+.diabetic-text {
+    width: 56%;
+    padding: 70px 50px 0px 50px;
+    background-color: #8A8A8A;
+}
+
+.diabetic-text > h2 {
+    font-size: 3em;
+    color: white;
+    width: 50%;
+}
+.diabetic-text > p {
+    font-size: 2.5em;
+    color: white;
+    width: 90%;
+}
+.diabetic-text > button {
+    width: 30%;
+    height: 60px;
+}
+.diabetic-text > button > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.infection {
+    color: #037A44;
+    font-size: 50px;
+    margin-top: 90px;
+    margin-left: 100px;
+}
+
+.new-arrival:last-child {
+    padding-bottom: 90px;
+}
+
+footer{
+    padding-top: 90px;
+}
+
+footer > h1 {
+    font-size: 5em;
+    text-align: center;
+}
+
+footer > p {
+    color: #037A44;
+    text-align: center;
+    font-size: 45px;
+}
+.questions-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    margin-top: 30px;
+}
+.questions {
+    display: flex;
+    justify-content: space-between;
+    border: 2px #037A44 solid;
+    padding: 10px;
+    height: 60px;
+    width: 70%;
+    font-size: 30px;
+}
+
+.icon-section {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons {
+    display: flex;
+    width: 20%;
+    gap: 20px;
+}
+
+.icon {
+    margin-top: 30px;
+    border: 3px black solid;
+    padding-top: 10px;
+    text-align: center;
+    width: 70%;
+    height: 70px;
+}
+
+.icon > i{
+   font-size: 40px;
+}
+
+.icon-text > h2 {
+    font-size: 30px;
+}
+
+.icon-text > p {
+    font-size: 20px;
+}
+
+
+.last-section {
+    background-color: #037A44;
+    padding-top: 50px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sign-up > p {
+    color: white;
+    font-size: 25px;
+}
+
+.sign-up > button {
+    background-color: white;
+    border: 0px;
+    width: 20%;
+    height: 50px;
+}
+.sign-up > button > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.support {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    border: 2px white solid;
+    height: 100px;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.support > p {
+    color: white;
+    font-size: 25px;
+    margin-left: 80px;
+}
+
+.i > i {
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.i {
+    margin-right: 80px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.copyright > p {
+    color: white;
+    font-size: 25px;
+    margin-left: 70px;
+    
+}
+
+.copyright > h4 {
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-right: 80px;
+}
+
+@media screen and (max-width:700px) {
+    nav {
+        justify-content: space-between;
+    }
+
+    nav > div {
+        font-size: 10px;
+    }
+    
+    nav > ul {
+        display: flex;
+        gap: 30px;
+    }
+    
+    nav > ul > li > a {
+        font-size: 10px;
+    }
+
+    .search-box  {
+        justify-content: space-between;
+    }
+    .search-box > .logo{
+        width: 20%;
+    }
+    .search-box > ul {
+        display: none;
+    }
+    .search-box  > i {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .hero-img {
+        width: 100%;
+    }
+    .hero-text {
+        background-color: #037A44;
+        width: 100%;
+        padding: 20px 10px 20px 20px;
+    }
+    .hero-text > h1 {
+        font-size: 25px;
+    }
+    
+    .hero-text > p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    
+    .hero-text > button {
+        width: 40%;
+        height: 40px;
+        margin-top: 20px; 
+    }
+    
+    .hero-text > button > a {
+        font-size: 16px;
+    }
+
+    main {
+        padding-top: 30px;
+    }
+    .new > h2 {
+        color: #037A44;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .new > button {
+        background-color: #037A44;
+        border: 0px;
+        width: 19%;
+        height: 40px;
+        margin-right: 10px;
+    }
+    .new > button > a {
+        font-size: 16px;
+    }
+
+    .facial {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 90px;
+        margin-left: 0px;
+    }
+    
+    .face {
+        width: 100%;
+    }
+    
+    .face > img {
+        width: 100%;
+    }
+    
+    .facial-text {
+        width: 100%;
+        padding: 10px 20px 0px 20px;
+    }
+    
+    .facial-text > p {
+        font-size: 30px;
+    }
+    .facial-text > button {
+        margin: 10px 0px 10px 0px;
+        width: 25%;
+        height: 40px;
+    }
+    .facial-text > button > a {
+        font-size: 16px;
+        color: black;
+    }
+    
+    .trending {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .diabetic{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .diabetic-img {
+        width: 100%;
+    }
+
+    .diabetic-img > img {
+        width: 99%;
+    }
+
+    .diabetic-text {
+        width: 99%;
+        padding: 10px 20px 0px 20px;
+        background-color: #8A8A8A;
+    }
+
+    .diabetic-text > h2 {
+        font-size: 1.5em;
+        color: white;
+        width: 50%;
+    }
+    .diabetic-text > p {
+        margin-top: 10px;
+        font-size: 1em;
+        width: 90%;
+    }
+    .diabetic-text > button {
+        width: 20%;
+        height: 40px;
+        margin: 20px 0px 20px 0px;
+    }
+    .diabetic-text > button > a {
+        font-size: 16px;
+    }
+    .infection {
+        font-size: 30px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    footer{
+        padding-top: 90px;
+    }
+    
+    footer > h1 {
+        font-size: 2.5em;
+    }
+    
+    footer > p {
+        font-size: 16px;
+    }
+    .questions {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+    
+    .icon-section {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .icons {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+    }
+    
+    .icon {
+        margin-top: 0px;
+        width: 20%;
+        height: 70px;
+    }
+    
+    .icon > i{
+       font-size: 40px;
+    }
+    
+    .icon-text > h2 {
+        font-size: 16px;
+    }
+    
+    .icon-text > p {
+        font-size: 16px;
+    }
+    
+    
+    .last-section {
+        background-color: #037A44;
+        padding-top: 50px;
+    }
+    
+    .sign-up {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .sign-up > p {
+        color: white;
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    
+    .sign-up > button {
+        width: 30%;
+        height: 50px;
+        margin-right: 20px;
+    }
+    .sign-up > button > a {
+        font-size: 10px;
+    }
+
+    .support {
+        border: 1px white solid;
+    }
+    
+    .support > p {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    
+    .i > i {
+        font-size: 20px;
+        margin-right: 0px;
+    }
+    
+    .i {
+        margin-right: 0px;
+    }
+    
+    .copyright > p {
+        font-size: 10px;
+        margin-left: 0px;
+        
+    }
+    
+    .copyright > h4 {
+        font-size: 10px;
+        margin-right: 0px;
+    }
+    .new-arrival-imgs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+        margin-right: 0px;
+        margin-left: 0px;
+        flex-wrap: wrap;
+    }
+    .images {
+        width: 90%;
+        overflow: hidden;
+    }
+    .img {
+        width: 100%;
+        background-color: white;
+        height: 350px;
+        overflow: hidden;
+    }
+    
+    
+    .img > img {
+        width: 100%;
+        padding: 20px;  
+    }
+    
+    .img-text {
+        background-color: #F6F6F6;
+        padding: 10px;
+        width: 100%;
+    }
+    
+    .img-text > h2 {
+        font-size: 10px;
+    }
+    
+    .img-text > p {
+        color: #037A44;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:500px) {
+    .img > img {
+        width: 100%;
+        padding: 20px;  
+    }
+    .img {
+        width: 100%;
+        background-color: white;
+        height: 300px;
+    }
+    .img-text {
+        background-color: #F6F6F6;
+        padding: 10px;
+        width: 200%;
+    }
+
+    .images {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:1050px) {
+    nav > div {
+        font-size: 20px;
+    }
+    nav > ul > li > a {
+        font-size: 16px;
+    }
+    .search-box > ul > li > a {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    .search {
+        width: 20%;
+    }
+    .search > input {
+        width: 70%;
+    }
+    .search > i {
+        padding-right: 10px;
+    }
+    .hero-text > h1 {
+        color: white;
+        font-size: 30px;
+    }
+    .hero-text > p {
+        font-size: 16px;
+    }
+    .hero-text {
+        padding: 40px 40px 40px 40px;
+    }
+    .hero-text > button {
+        width: 50%;
+    }
+    .hero-text > button > a {
+        font-size: 16px;
+    }
+    .new-arrival-imgs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .new > h2 {
+        font-size: 30px;
+    }
+    .new > button {
+        width: 10%;
+        height: 50px;
+    }
+    .new > button > a {
+        font-size: 16px;
+    }
+    .facial {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 90px;
+    }
+    .face {
+        width: 80%;
+    }
+    .facial-text {
+        width: 80%;
+        padding: 30px 30px 30px 30px;
+    }
+    .facial-text > p {
+        font-size: 2.5em;
+    }
+    .facial-text > button {
+        width: 20%;
+        margin-top: 20px;
+    }
+    .facial-text > button > a {
+        font-size: 16px;
+   }
+   .diabetic {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0px 0px 0px;
+    }
+    .diabetic-text {
+        width: 80%;
+        padding: 30px 30px 30px 30px;
+        background-color: #8A8A8A;
+    }
+    .diabetic-text > h2 {
+        font-size: 2em;
+        width: 50%;
+    }
+    .diabetic-text > p {
+        font-size: 1.5em;
+        margin-top: 20px;
+    }
+    .diabetic-text > button {
+        width: 20%;
+        height: 50px;
+        margin-top: 20px;
+    }
+    .diabetic-text > button > a {
+        font-size: 16px;
+    }
+    .diabetic-img {
+        width: 80%;
+    }
+    footer > h1 {
+        font-size: 3em;
+    }
+    footer > p {
+        font-size: 30px;
+    }
+    .questions {
+        padding: 15px;
+        font-size: 20px;
+    }
+    .icon-text > h2 {
+        font-size: 16px;
+    }
+    .icon-text > p {
+        font-size: 13px;
+    }
+    .icons {
+        display: flex;
+        align-items: center;
+        width: 30%;
+        margin-bottom: 30px;
+    }
+    .icon {
+        margin-top: 10px;
+        width: 40%;
+    }
+    .sign-up > p {
+        font-size: 18px;
+    }
+    .sign-up > button > a {
+        font-size: 16px;
+    }
+    .support {
+        padding: 0px 0px 0px 40px;
+    }
+    .support > p {
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .i {
+        margin-right: 30px;
+    }
+    .copyright {
+        padding: 20px 40px 40px 40px;
+    }
+    .copyright > p {
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .copyright > h4 {
+        font-size: 20px;
+        margin-right: 0px;
+    }
+}
